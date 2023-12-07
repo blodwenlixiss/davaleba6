@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500&family=Open+Sans:ital,wght@1,300&family=Pixelify+Sans&family=Poppins:wght@300;600&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200&family=Pixelify+Sans&family=Poppins:wght@300;600&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500&family=DM+Sans:opsz,wght@9..40,100&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200&family=Pixelify+Sans&family=Poppins:wght@300;600&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&family=Ultra&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5d3ab;
+}
+
+main {
+  padding: 135px;
+}
+
+.headline span {
+  color: #171b1b;
+
+  font-family: Oswald;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.headline h1 {
+  color: #171b1b;
+
+  font-family: Ultra;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+}
+.heading {
+  color: #fff;
+
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.text p {
+  color: rgba(255, 255, 255, 0.987);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 32px;
+}
+.text h2 {
+  color: #fff;
+
+  font-family: Ultra;
+  font-size: 3rem;
+
+  font-weight: 400;
+  line-height: 48px;
+}
+.price {
+  text-align: right;
+  font-family: Ultra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.bottom-space {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.white {
+  color: white;
+}
+.upper-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.bottom-section {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cupcake-block {
+  flex-grow: 1;
+}
+.biscuits-block {
+  flex-grow: 1;
+}
+.brioche-block {
+  flex-grow: 1;
+}
+.bread-block {
+  flex-grow: 1;
+}
+
+.main-block {
+  /* box-sizing: border-box; */
+  opacity: 90%;
+  flex-grow: 2;
+  padding: 48px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/Homemadebread.jpg);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.bread-img {
+  height: 304px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/Bread-Varieties-M-1024x683.jpg);
+}
+.cupcake-img {
+  height: 304px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/Cupckae.jpg);
+}
+.biscuits-img {
+  height: 304px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/Bisquit.jpeg);
+}
+.brioche-img {
+  height: 304px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/web-brioche-.jpg);
+}
+.underline {
+  background-color: #fff;
+  padding: 16px 35px;
+}
+.section {
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.title {
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+}
+.explore-btn :hover {
+  cursor: pointer;
+}
+.explore-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore-btn button {
+  background: none;
+  margin-top: 20px;
+  border: 1px solid #171b1b;
+  padding: 13px 59px;
+  color: #171b1b;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+}
