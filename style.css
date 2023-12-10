@@ -7,6 +7,9 @@ body {
   box-sizing: border-box;
   background-color: #f5d3ab;
 }
+* {
+  box-sizing: border-box;
+}
 
 main {
   padding: 135px;
@@ -84,23 +87,11 @@ main {
   flex-wrap: wrap;
   gap: 30px;
 }
-.cupcake-block {
-  flex-grow: 1;
-}
-.biscuits-block {
-  flex-grow: 1;
-}
-.brioche-block {
-  flex-grow: 1;
-}
-.bread-block {
-  flex-grow: 1;
-}
 
 .main-block {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   opacity: 90%;
-  flex-grow: 2;
+  width: 770px;
   padding: 48px;
   background-position: center;
   background-size: cover;
@@ -110,24 +101,28 @@ main {
   flex-direction: column;
 }
 .bread-img {
+  width: 370px;
   height: 304px;
   background-position: center;
   background-size: cover;
   background-image: url(./img/Bread-Varieties-M-1024x683.jpg);
 }
 .cupcake-img {
+  width: 370px;
   height: 304px;
   background-position: center;
   background-size: cover;
   background-image: url(./img/Cupckae.jpg);
 }
 .biscuits-img {
+  width: 370px;
   height: 304px;
   background-position: center;
   background-size: cover;
   background-image: url(./img/Bisquit.jpeg);
 }
 .brioche-img {
+  width: 370px;
   height: 304px;
   background-position: center;
   background-size: cover;
